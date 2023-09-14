@@ -4,15 +4,14 @@ version: 0.0.1
 homepage: https://github.com/Money1998/custom_apnsX.git
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=2.12.0 <=3.3.10"
 
 dependencies:
   flutter:
     sdk: flutter
 
   cupertino_icons: ^1.0.5
-  path_provider: ^2.0.12
-  flutter_local_notifications: ^13.0.0
+  path_provider: ^2.0.12  
   plugin_platform_interface: ^2.1.3
   firebase_core: ^2.6.0
   firebase_messaging: ^14.2.2

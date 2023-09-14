@@ -13,6 +13,9 @@
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
+		BEF50FB82AB397C500908C66 /* FlutterApnsPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF50FB72AB397C500908C66 /* FlutterApnsPlugin.swift */; };
+		BEF50FBA2AB397FC00908C66 /* FlutterApnsSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF50FB92AB397FC00908C66 /* FlutterApnsSerialization.m */; };
+		BEF50FBF2AB3989800908C66 /* FlutterApnsSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF50FBE2AB3989800908C66 /* FlutterApnsSwizzler.m */; };
 		CC1D83AC835782508F710CD2 /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3BCD3DB631646ECC081B9E8 /* Pods_Runner.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +50,11 @@
 		97C147021CF9000F007C117D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A20DE472B009BF65164F5A14 /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
 		B05EE8A8DCA9D01EBACAD207 /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
+		BEF50FB72AB397C500908C66 /* FlutterApnsPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FlutterApnsPlugin.swift; path = Classes/FlutterApnsPlugin.swift; sourceTree = "<group>"; };
+		BEF50FB92AB397FC00908C66 /* FlutterApnsSerialization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FlutterApnsSerialization.m; path = Classes/FlutterApnsSerialization.m; sourceTree = "<group>"; };
+		BEF50FBB2AB3983900908C66 /* FlutterApnsSerialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FlutterApnsSerialization.h; path = Classes/FlutterApnsSerialization.h; sourceTree = "<group>"; };
+		BEF50FBD2AB3987A00908C66 /* FlutterApnsSwizzler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FlutterApnsSwizzler.h; path = Classes/FlutterApnsSwizzler.h; sourceTree = "<group>"; };
+		BEF50FBE2AB3989800908C66 /* FlutterApnsSwizzler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FlutterApnsSwizzler.m; path = Classes/FlutterApnsSwizzler.m; sourceTree = "<group>"; };
 		C3BCD3DB631646ECC081B9E8 /* Pods_Runner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -112,6 +120,11 @@
 				1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */,
 				74858FAE1ED2DC5600515810 /* AppDelegate.swift */,
 				74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */,
+				BEF50FB72AB397C500908C66 /* FlutterApnsPlugin.swift */,
+				BEF50FB92AB397FC00908C66 /* FlutterApnsSerialization.m */,
+				BEF50FBB2AB3983900908C66 /* FlutterApnsSerialization.h */,
+				BEF50FBD2AB3987A00908C66 /* FlutterApnsSwizzler.h */,
+				BEF50FBE2AB3989800908C66 /* FlutterApnsSwizzler.m */,
 			);
 			path = Runner;
 			sourceTree = "<group>";
@@ -276,7 +289,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */,
+				BEF50FB82AB397C500908C66 /* FlutterApnsPlugin.swift in Sources */,
 				1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */,
+				BEF50FBF2AB3989800908C66 /* FlutterApnsSwizzler.m in Sources */,
+				BEF50FBA2AB397FC00908C66 /* FlutterApnsSerialization.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
